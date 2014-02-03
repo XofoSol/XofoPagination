@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link href="jquery.xofoPagination.css" rel="stylesheet" />
+	<script src="jquery-1.6.2.min.js" type="text/javascript"></script>
+	<script src="jquery.xofoPagination.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function (){
+			$('ul#bloqueUl').xofoPagination({
+				itemsPerPage: 5
+			});
+			$('div#bloqueDiv').xofoPagination({
+				itemsPerPage: 2,
+				firstLabel: 'Primera',
+				lastLabel: 'Última',
+				prevLabel: '<<',
+				nextLabel: '>>'
+			});
+		});
+	</script>
+	<title>Test</title>
+</head>
+<body>
+	<ul id="bloqueUl">
+		<li>pagina 1</li>
+		<li>pagina 1</li>
+		<li>pagina 1</li>
+		<li>pagina 1</li>
+		<li>pagina 1</li>
+		<li>pagina 2</li>
+		<li>pagina 2</li>
+		<li>pagina 2</li>
+		<li>pagina 2</li>
+		<li>pagina 2</li>
+		<li>pagina 3</li>
+		<li>pagina 3</li>
+		<li>pagina 3</li>
+		<li>pagina 3</li>
+		<li>pagina 3</li>
+		<li>pagina 4</li>
+		<li>pagina 4</li>
+		<li>pagina 4</li>
+		<li>pagina 4</li>
+		<li>pagina 4</li>
+	</ul>
+	<div id="bloqueDiv">
+		<div>pagina 1</div>
+		<div>pagina 1</div>
+		<div>pagina 2</div>
+		<div>pagina 2</div>
+		<div>pagina 3</div>
+		<div>pagina 3</div>
+		<div>pagina 4</div>
+		<div>pagina 4</div>
+		<div>pagina 5</div>
+		<div>pagina 5</div>
+	</div>
+</body>
+</html>

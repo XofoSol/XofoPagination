@@ -1,0 +1,43 @@
+div.paginationPages {
+	display: none;
+}
+
+div.paginationPaginator {
+	width: 260px;
+	height: auto;
+	overflow: auto;
+	position: relative;
+	left: 300px;
+	margin: 20px 0;
+}
+
+div.paginationPaginator ul {
+	list-style: none;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+div.paginationPaginator ul > li,
+div.paginationPaginator div {
+	float: left;
+	
+}
+
+div.paginationPaginator a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+	margin: 0 5px;
+}
+
+div.paginationPaginator a:hover {
+	text-decoration: underline;
+}
+li.paginationCurrentPaginator a {
+	background: #cc0000;
+	color: #FFF;
+}
